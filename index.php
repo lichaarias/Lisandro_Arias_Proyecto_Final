@@ -1,6 +1,5 @@
 <?php
 session_start();
-// Si hay sesión iniciada, el botón de compra va al éxito; si no, al login
 $destinoCompra = isset($_SESSION['usuario_id']) ? 'carrito_exito.php' : 'login.php';
 ?>
 <!DOCTYPE html>

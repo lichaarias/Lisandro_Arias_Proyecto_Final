@@ -1,10 +1,7 @@
--- Creamos la base de datos para la tienda de vinilos
 CREATE DATABASE tienda_vinilos CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
--- Seleccionamos la base de datos que acabamos de crear
 USE tienda_vinilos;
 
--- Creamos la tabla 'usuarios' con todos los campos obligatorios del trabajo
 CREATE TABLE usuarios (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(80) NOT NULL,
